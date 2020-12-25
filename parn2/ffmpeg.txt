@@ -1,0 +1,1 @@
+ffmpeg -threads 2 -ss 00:01:00 -t 00:00:20 -i p2.mp4 -vcodec libx264 -preset fast -b 10000k 4.mp4
